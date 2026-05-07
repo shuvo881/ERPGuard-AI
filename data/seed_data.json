@@ -1,0 +1,1902 @@
+{
+  "generated_at": "2026-02-23T10:47:07.011539Z",
+  "products": [
+    {
+      "product_id": 1001,
+      "sku": "SKU-1001",
+      "name": "Accessories - Haven 282",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 35.43,
+      "popularity_score": 0.18
+    },
+    {
+      "product_id": 1002,
+      "sku": "SKU-1002",
+      "name": "Nicotine Vape - Cloud 90",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "MA"
+      ],
+      "lab_report_required": false,
+      "price": 74.14,
+      "popularity_score": 0.08
+    },
+    {
+      "product_id": 1003,
+      "sku": "SKU-1003",
+      "name": "THC Beverage - Alpha 575",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": true,
+      "price": 30.27,
+      "popularity_score": 0.654
+    },
+    {
+      "product_id": 1004,
+      "sku": "SKU-1004",
+      "name": "Mushroom Gummies - Prime 7",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": true,
+      "price": 92.99,
+      "popularity_score": 0.198
+    },
+    {
+      "product_id": 1005,
+      "sku": "SKU-1005",
+      "name": "THC Beverage - Zen 105",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": false,
+      "price": 18.39,
+      "popularity_score": 0.14
+    },
+    {
+      "product_id": 1006,
+      "sku": "SKU-1006",
+      "name": "Nicotine Vape - Cloud 128",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 116.99,
+      "popularity_score": 0.402
+    },
+    {
+      "product_id": 1007,
+      "sku": "SKU-1007",
+      "name": "Accessories - Prime 371",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 72.66,
+      "popularity_score": 0.705
+    },
+    {
+      "product_id": 1008,
+      "sku": "SKU-1008",
+      "name": "Nicotine Vape - Prime 297",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 118.34,
+      "popularity_score": 0.845
+    },
+    {
+      "product_id": 1009,
+      "sku": "SKU-1009",
+      "name": "Kratom - Haven 855",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 48.86,
+      "popularity_score": 0.394
+    },
+    {
+      "product_id": 1010,
+      "sku": "SKU-1010",
+      "name": "CBD Tincture - Haven 664",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 16.0,
+      "popularity_score": 0.641
+    },
+    {
+      "product_id": 1011,
+      "sku": "SKU-1011",
+      "name": "Mushroom Gummies - Nova 474",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": true,
+      "price": 50.5,
+      "popularity_score": 0.97
+    },
+    {
+      "product_id": 1012,
+      "sku": "SKU-1012",
+      "name": "Accessories - Prime 795",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 14.27,
+      "popularity_score": 0.814
+    },
+    {
+      "product_id": 1013,
+      "sku": "SKU-1013",
+      "name": "CBD Tincture - Alpha 217",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 110.27,
+      "popularity_score": 0.577
+    },
+    {
+      "product_id": 1014,
+      "sku": "SKU-1014",
+      "name": "Accessories - Haven 512",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 52.31,
+      "popularity_score": 0.901
+    },
+    {
+      "product_id": 1015,
+      "sku": "SKU-1015",
+      "name": "Kratom - Nova 253",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 91.44,
+      "popularity_score": 0.551
+    },
+    {
+      "product_id": 1016,
+      "sku": "SKU-1016",
+      "name": "Kratom - Pulse 371",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 32.56,
+      "popularity_score": 0.978
+    },
+    {
+      "product_id": 1017,
+      "sku": "SKU-1017",
+      "name": "Nicotine Vape - Prime 113",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 25.12,
+      "popularity_score": 0.199
+    },
+    {
+      "product_id": 1018,
+      "sku": "SKU-1018",
+      "name": "Mushroom Gummies - Pulse 611",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 119.57,
+      "popularity_score": 0.542
+    },
+    {
+      "product_id": 1019,
+      "sku": "SKU-1019",
+      "name": "Nicotine Vape - Alpha 699",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 107.1,
+      "popularity_score": 0.748
+    },
+    {
+      "product_id": 1020,
+      "sku": "SKU-1020",
+      "name": "CBD Tincture - Pulse 162",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 58.82,
+      "popularity_score": 0.937
+    },
+    {
+      "product_id": 1021,
+      "sku": "SKU-1021",
+      "name": "Accessories - Cloud 781",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 28.01,
+      "popularity_score": 0.899
+    },
+    {
+      "product_id": 1022,
+      "sku": "SKU-1022",
+      "name": "Accessories - Haven 520",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 76.2,
+      "popularity_score": 0.192
+    },
+    {
+      "product_id": 1023,
+      "sku": "SKU-1023",
+      "name": "THC Beverage - Prime 945",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": true,
+      "price": 67.4,
+      "popularity_score": 0.051
+    },
+    {
+      "product_id": 1024,
+      "sku": "SKU-1024",
+      "name": "CBD Tincture - Prime 827",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 42.44,
+      "popularity_score": 0.104
+    },
+    {
+      "product_id": 1025,
+      "sku": "SKU-1025",
+      "name": "Mushroom Gummies - Alpha 750",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 62.43,
+      "popularity_score": 0.114
+    },
+    {
+      "product_id": 1026,
+      "sku": "SKU-1026",
+      "name": "THC Beverage - Cloud 170",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": true,
+      "price": 37.69,
+      "popularity_score": 0.861
+    },
+    {
+      "product_id": 1027,
+      "sku": "SKU-1027",
+      "name": "Mushroom Gummies - Haven 206",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": true,
+      "price": 87.85,
+      "popularity_score": 0.421
+    },
+    {
+      "product_id": 1028,
+      "sku": "SKU-1028",
+      "name": "Mushroom Gummies - Nova 231",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": true,
+      "price": 15.17,
+      "popularity_score": 0.07
+    },
+    {
+      "product_id": 1029,
+      "sku": "SKU-1029",
+      "name": "Nicotine Vape - Haven 61",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 33.64,
+      "popularity_score": 0.892
+    },
+    {
+      "product_id": 1030,
+      "sku": "SKU-1030",
+      "name": "Nicotine Vape - Zen 686",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 62.37,
+      "popularity_score": 0.551
+    },
+    {
+      "product_id": 1031,
+      "sku": "SKU-1031",
+      "name": "Mushroom Gummies - Nova 804",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [
+        "CA",
+        "NY"
+      ],
+      "lab_report_required": false,
+      "price": 60.97,
+      "popularity_score": 0.429
+    },
+    {
+      "product_id": 1032,
+      "sku": "SKU-1032",
+      "name": "CBD Tincture - Pulse 885",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 89.66,
+      "popularity_score": 0.676
+    },
+    {
+      "product_id": 1033,
+      "sku": "SKU-1033",
+      "name": "Accessories - Pulse 746",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 46.0,
+      "popularity_score": 0.851
+    },
+    {
+      "product_id": 1034,
+      "sku": "SKU-1034",
+      "name": "THC Beverage - Cloud 460",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": false,
+      "price": 23.7,
+      "popularity_score": 0.221
+    },
+    {
+      "product_id": 1035,
+      "sku": "SKU-1035",
+      "name": "Nicotine Vape - Prime 877",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 69.64,
+      "popularity_score": 0.097
+    },
+    {
+      "product_id": 1036,
+      "sku": "SKU-1036",
+      "name": "Nicotine Vape - Prime 870",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 34.47,
+      "popularity_score": 0.428
+    },
+    {
+      "product_id": 1037,
+      "sku": "SKU-1037",
+      "name": "Kratom - Nova 389",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 8.24,
+      "popularity_score": 0.413
+    },
+    {
+      "product_id": 1038,
+      "sku": "SKU-1038",
+      "name": "Kratom - Haven 981",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 89.82,
+      "popularity_score": 0.779
+    },
+    {
+      "product_id": 1039,
+      "sku": "SKU-1039",
+      "name": "Kratom - Zen 223",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 116.5,
+      "popularity_score": 0.589
+    },
+    {
+      "product_id": 1040,
+      "sku": "SKU-1040",
+      "name": "Accessories - Alpha 599",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 61.4,
+      "popularity_score": 0.905
+    },
+    {
+      "product_id": 1041,
+      "sku": "SKU-1041",
+      "name": "Mushroom Gummies - Cloud 83",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [
+        "CA",
+        "NY"
+      ],
+      "lab_report_required": false,
+      "price": 103.35,
+      "popularity_score": 0.114
+    },
+    {
+      "product_id": 1042,
+      "sku": "SKU-1042",
+      "name": "Kratom - Cloud 253",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "WI"
+      ],
+      "lab_report_required": false,
+      "price": 72.84,
+      "popularity_score": 0.087
+    },
+    {
+      "product_id": 1043,
+      "sku": "SKU-1043",
+      "name": "Accessories - Cloud 324",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 112.69,
+      "popularity_score": 0.24
+    },
+    {
+      "product_id": 1044,
+      "sku": "SKU-1044",
+      "name": "Accessories - Zen 406",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 22.66,
+      "popularity_score": 0.65
+    },
+    {
+      "product_id": 1045,
+      "sku": "SKU-1045",
+      "name": "Kratom - Prime 959",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 16.12,
+      "popularity_score": 0.476
+    },
+    {
+      "product_id": 1046,
+      "sku": "SKU-1046",
+      "name": "Nicotine Vape - Nova 519",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 37.7,
+      "popularity_score": 0.918
+    },
+    {
+      "product_id": 1047,
+      "sku": "SKU-1047",
+      "name": "THC Beverage - Nova 449",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": false,
+      "price": 101.38,
+      "popularity_score": 0.704
+    },
+    {
+      "product_id": 1048,
+      "sku": "SKU-1048",
+      "name": "Accessories - Haven 837",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 70.12,
+      "popularity_score": 0.917
+    },
+    {
+      "product_id": 1049,
+      "sku": "SKU-1049",
+      "name": "Nicotine Vape - Nova 271",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 20.93,
+      "popularity_score": 0.15
+    },
+    {
+      "product_id": 1050,
+      "sku": "SKU-1050",
+      "name": "CBD Tincture - Nova 735",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 46.4,
+      "popularity_score": 0.689
+    },
+    {
+      "product_id": 1051,
+      "sku": "SKU-1051",
+      "name": "CBD Tincture - Zen 928",
+      "category": "CBD Tincture",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 109.71,
+      "popularity_score": 0.097
+    },
+    {
+      "product_id": 1052,
+      "sku": "SKU-1052",
+      "name": "Accessories - Zen 46",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 8.4,
+      "popularity_score": 0.767
+    },
+    {
+      "product_id": 1053,
+      "sku": "SKU-1053",
+      "name": "Accessories - Nova 760",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 57.49,
+      "popularity_score": 0.706
+    },
+    {
+      "product_id": 1054,
+      "sku": "SKU-1054",
+      "name": "Mushroom Gummies - Alpha 968",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": true,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 106.91,
+      "popularity_score": 0.891
+    },
+    {
+      "product_id": 1055,
+      "sku": "SKU-1055",
+      "name": "Mushroom Gummies - Pulse 131",
+      "category": "Mushroom Gummies",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": true
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 12.68,
+      "popularity_score": 0.389
+    },
+    {
+      "product_id": 1056,
+      "sku": "SKU-1056",
+      "name": "Nicotine Vape - Nova 699",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 35.95,
+      "popularity_score": 0.146
+    },
+    {
+      "product_id": 1057,
+      "sku": "SKU-1057",
+      "name": "Kratom - Haven 159",
+      "category": "Kratom",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": true,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 111.69,
+      "popularity_score": 0.27
+    },
+    {
+      "product_id": 1058,
+      "sku": "SKU-1058",
+      "name": "THC Beverage - Alpha 184",
+      "category": "THC Beverage",
+      "flags": {
+        "nicotine": false,
+        "thc": true,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [
+        "ID",
+        "UT"
+      ],
+      "lab_report_required": false,
+      "price": 90.5,
+      "popularity_score": 0.359
+    },
+    {
+      "product_id": 1059,
+      "sku": "SKU-1059",
+      "name": "Accessories - Zen 164",
+      "category": "Accessories",
+      "flags": {
+        "nicotine": false,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 96.19,
+      "popularity_score": 0.151
+    },
+    {
+      "product_id": 1060,
+      "sku": "SKU-1060",
+      "name": "Nicotine Vape - Nova 205",
+      "category": "Nicotine Vape",
+      "flags": {
+        "nicotine": true,
+        "thc": false,
+        "cbd": false,
+        "kratom": false,
+        "mushroom": false
+      },
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 99.46,
+      "popularity_score": 0.478
+    }
+  ],
+  "inventory": [
+    {
+      "product_id": 1001,
+      "warehouse": "CA-2",
+      "qty": 6
+    },
+    {
+      "product_id": 1002,
+      "warehouse": "CA-2",
+      "qty": 71
+    },
+    {
+      "product_id": 1002,
+      "warehouse": "TX-1",
+      "qty": 221
+    },
+    {
+      "product_id": 1002,
+      "warehouse": "FL-1",
+      "qty": 17
+    },
+    {
+      "product_id": 1003,
+      "warehouse": "NY-1",
+      "qty": 173
+    },
+    {
+      "product_id": 1003,
+      "warehouse": "TX-1",
+      "qty": 215
+    },
+    {
+      "product_id": 1004,
+      "warehouse": "NY-1",
+      "qty": 224
+    },
+    {
+      "product_id": 1004,
+      "warehouse": "CA-1",
+      "qty": 66
+    },
+    {
+      "product_id": 1004,
+      "warehouse": "TX-1",
+      "qty": 45
+    },
+    {
+      "product_id": 1005,
+      "warehouse": "NY-1",
+      "qty": 152
+    },
+    {
+      "product_id": 1005,
+      "warehouse": "CA-1",
+      "qty": 111
+    },
+    {
+      "product_id": 1005,
+      "warehouse": "TX-1",
+      "qty": 88
+    },
+    {
+      "product_id": 1006,
+      "warehouse": "NY-1",
+      "qty": 130
+    },
+    {
+      "product_id": 1006,
+      "warehouse": "TX-1",
+      "qty": 29
+    },
+    {
+      "product_id": 1006,
+      "warehouse": "FL-1",
+      "qty": 98
+    },
+    {
+      "product_id": 1007,
+      "warehouse": "CA-2",
+      "qty": 181
+    },
+    {
+      "product_id": 1007,
+      "warehouse": "NY-1",
+      "qty": 111
+    },
+    {
+      "product_id": 1007,
+      "warehouse": "CA-1",
+      "qty": 0
+    },
+    {
+      "product_id": 1008,
+      "warehouse": "FL-1",
+      "qty": 110
+    },
+    {
+      "product_id": 1008,
+      "warehouse": "CA-2",
+      "qty": 17
+    },
+    {
+      "product_id": 1008,
+      "warehouse": "TX-1",
+      "qty": 170
+    },
+    {
+      "product_id": 1009,
+      "warehouse": "FL-1",
+      "qty": 169
+    },
+    {
+      "product_id": 1009,
+      "warehouse": "NY-1",
+      "qty": 217
+    },
+    {
+      "product_id": 1010,
+      "warehouse": "NY-1",
+      "qty": 129
+    },
+    {
+      "product_id": 1011,
+      "warehouse": "TX-1",
+      "qty": 103
+    },
+    {
+      "product_id": 1011,
+      "warehouse": "NY-1",
+      "qty": 178
+    },
+    {
+      "product_id": 1012,
+      "warehouse": "FL-1",
+      "qty": 49
+    },
+    {
+      "product_id": 1012,
+      "warehouse": "CA-2",
+      "qty": 107
+    },
+    {
+      "product_id": 1013,
+      "warehouse": "TX-1",
+      "qty": 145
+    },
+    {
+      "product_id": 1013,
+      "warehouse": "CA-2",
+      "qty": 77
+    },
+    {
+      "product_id": 1013,
+      "warehouse": "NY-1",
+      "qty": 103
+    },
+    {
+      "product_id": 1014,
+      "warehouse": "CA-1",
+      "qty": 53
+    },
+    {
+      "product_id": 1014,
+      "warehouse": "NY-1",
+      "qty": 110
+    },
+    {
+      "product_id": 1014,
+      "warehouse": "CA-2",
+      "qty": 201
+    },
+    {
+      "product_id": 1015,
+      "warehouse": "FL-1",
+      "qty": 113
+    },
+    {
+      "product_id": 1015,
+      "warehouse": "NY-1",
+      "qty": 113
+    },
+    {
+      "product_id": 1015,
+      "warehouse": "CA-2",
+      "qty": 172
+    },
+    {
+      "product_id": 1016,
+      "warehouse": "FL-1",
+      "qty": 121
+    },
+    {
+      "product_id": 1017,
+      "warehouse": "CA-2",
+      "qty": 131
+    },
+    {
+      "product_id": 1017,
+      "warehouse": "CA-1",
+      "qty": 169
+    },
+    {
+      "product_id": 1017,
+      "warehouse": "FL-1",
+      "qty": 162
+    },
+    {
+      "product_id": 1018,
+      "warehouse": "NY-1",
+      "qty": 172
+    },
+    {
+      "product_id": 1018,
+      "warehouse": "CA-1",
+      "qty": 79
+    },
+    {
+      "product_id": 1018,
+      "warehouse": "TX-1",
+      "qty": 57
+    },
+    {
+      "product_id": 1019,
+      "warehouse": "CA-2",
+      "qty": 6
+    },
+    {
+      "product_id": 1020,
+      "warehouse": "CA-2",
+      "qty": 121
+    },
+    {
+      "product_id": 1021,
+      "warehouse": "CA-1",
+      "qty": 226
+    },
+    {
+      "product_id": 1021,
+      "warehouse": "TX-1",
+      "qty": 161
+    },
+    {
+      "product_id": 1021,
+      "warehouse": "CA-2",
+      "qty": 147
+    },
+    {
+      "product_id": 1022,
+      "warehouse": "TX-1",
+      "qty": 126
+    },
+    {
+      "product_id": 1023,
+      "warehouse": "CA-2",
+      "qty": 167
+    },
+    {
+      "product_id": 1023,
+      "warehouse": "FL-1",
+      "qty": 176
+    },
+    {
+      "product_id": 1024,
+      "warehouse": "CA-1",
+      "qty": 199
+    },
+    {
+      "product_id": 1025,
+      "warehouse": "CA-2",
+      "qty": 205
+    },
+    {
+      "product_id": 1025,
+      "warehouse": "FL-1",
+      "qty": 178
+    },
+    {
+      "product_id": 1026,
+      "warehouse": "TX-1",
+      "qty": 63
+    },
+    {
+      "product_id": 1026,
+      "warehouse": "CA-1",
+      "qty": 234
+    },
+    {
+      "product_id": 1026,
+      "warehouse": "NY-1",
+      "qty": 217
+    },
+    {
+      "product_id": 1027,
+      "warehouse": "TX-1",
+      "qty": 34
+    },
+    {
+      "product_id": 1028,
+      "warehouse": "FL-1",
+      "qty": 193
+    },
+    {
+      "product_id": 1028,
+      "warehouse": "NY-1",
+      "qty": 228
+    },
+    {
+      "product_id": 1029,
+      "warehouse": "FL-1",
+      "qty": 212
+    },
+    {
+      "product_id": 1029,
+      "warehouse": "TX-1",
+      "qty": 232
+    },
+    {
+      "product_id": 1030,
+      "warehouse": "TX-1",
+      "qty": 220
+    },
+    {
+      "product_id": 1030,
+      "warehouse": "CA-2",
+      "qty": 121
+    },
+    {
+      "product_id": 1030,
+      "warehouse": "NY-1",
+      "qty": 115
+    },
+    {
+      "product_id": 1031,
+      "warehouse": "CA-2",
+      "qty": 196
+    },
+    {
+      "product_id": 1031,
+      "warehouse": "NY-1",
+      "qty": 199
+    },
+    {
+      "product_id": 1032,
+      "warehouse": "TX-1",
+      "qty": 112
+    },
+    {
+      "product_id": 1032,
+      "warehouse": "CA-2",
+      "qty": 19
+    },
+    {
+      "product_id": 1032,
+      "warehouse": "FL-1",
+      "qty": 182
+    },
+    {
+      "product_id": 1033,
+      "warehouse": "CA-2",
+      "qty": 85
+    },
+    {
+      "product_id": 1033,
+      "warehouse": "NY-1",
+      "qty": 81
+    },
+    {
+      "product_id": 1034,
+      "warehouse": "CA-1",
+      "qty": 59
+    },
+    {
+      "product_id": 1034,
+      "warehouse": "CA-2",
+      "qty": 98
+    },
+    {
+      "product_id": 1034,
+      "warehouse": "FL-1",
+      "qty": 177
+    },
+    {
+      "product_id": 1035,
+      "warehouse": "CA-2",
+      "qty": 16
+    },
+    {
+      "product_id": 1036,
+      "warehouse": "TX-1",
+      "qty": 138
+    },
+    {
+      "product_id": 1036,
+      "warehouse": "NY-1",
+      "qty": 119
+    },
+    {
+      "product_id": 1037,
+      "warehouse": "CA-1",
+      "qty": 213
+    },
+    {
+      "product_id": 1037,
+      "warehouse": "CA-2",
+      "qty": 107
+    },
+    {
+      "product_id": 1038,
+      "warehouse": "FL-1",
+      "qty": 219
+    },
+    {
+      "product_id": 1038,
+      "warehouse": "CA-1",
+      "qty": 225
+    },
+    {
+      "product_id": 1039,
+      "warehouse": "TX-1",
+      "qty": 90
+    },
+    {
+      "product_id": 1039,
+      "warehouse": "FL-1",
+      "qty": 76
+    },
+    {
+      "product_id": 1039,
+      "warehouse": "CA-1",
+      "qty": 192
+    },
+    {
+      "product_id": 1040,
+      "warehouse": "TX-1",
+      "qty": 124
+    },
+    {
+      "product_id": 1040,
+      "warehouse": "CA-2",
+      "qty": 56
+    },
+    {
+      "product_id": 1041,
+      "warehouse": "TX-1",
+      "qty": 7
+    },
+    {
+      "product_id": 1041,
+      "warehouse": "FL-1",
+      "qty": 99
+    },
+    {
+      "product_id": 1042,
+      "warehouse": "TX-1",
+      "qty": 215
+    },
+    {
+      "product_id": 1042,
+      "warehouse": "CA-2",
+      "qty": 119
+    },
+    {
+      "product_id": 1043,
+      "warehouse": "FL-1",
+      "qty": 136
+    },
+    {
+      "product_id": 1044,
+      "warehouse": "TX-1",
+      "qty": 151
+    },
+    {
+      "product_id": 1045,
+      "warehouse": "CA-1",
+      "qty": 109
+    },
+    {
+      "product_id": 1045,
+      "warehouse": "FL-1",
+      "qty": 34
+    },
+    {
+      "product_id": 1045,
+      "warehouse": "NY-1",
+      "qty": 221
+    },
+    {
+      "product_id": 1046,
+      "warehouse": "CA-2",
+      "qty": 66
+    },
+    {
+      "product_id": 1046,
+      "warehouse": "CA-1",
+      "qty": 97
+    },
+    {
+      "product_id": 1047,
+      "warehouse": "CA-2",
+      "qty": 83
+    },
+    {
+      "product_id": 1047,
+      "warehouse": "TX-1",
+      "qty": 86
+    },
+    {
+      "product_id": 1048,
+      "warehouse": "NY-1",
+      "qty": 64
+    },
+    {
+      "product_id": 1048,
+      "warehouse": "TX-1",
+      "qty": 213
+    },
+    {
+      "product_id": 1049,
+      "warehouse": "TX-1",
+      "qty": 4
+    },
+    {
+      "product_id": 1050,
+      "warehouse": "FL-1",
+      "qty": 57
+    },
+    {
+      "product_id": 1050,
+      "warehouse": "CA-1",
+      "qty": 166
+    },
+    {
+      "product_id": 1050,
+      "warehouse": "CA-2",
+      "qty": 17
+    },
+    {
+      "product_id": 1051,
+      "warehouse": "CA-1",
+      "qty": 51
+    },
+    {
+      "product_id": 1051,
+      "warehouse": "FL-1",
+      "qty": 214
+    },
+    {
+      "product_id": 1051,
+      "warehouse": "TX-1",
+      "qty": 5
+    },
+    {
+      "product_id": 1052,
+      "warehouse": "CA-2",
+      "qty": 121
+    },
+    {
+      "product_id": 1052,
+      "warehouse": "FL-1",
+      "qty": 171
+    },
+    {
+      "product_id": 1052,
+      "warehouse": "CA-1",
+      "qty": 29
+    },
+    {
+      "product_id": 1053,
+      "warehouse": "CA-2",
+      "qty": 65
+    },
+    {
+      "product_id": 1053,
+      "warehouse": "TX-1",
+      "qty": 196
+    },
+    {
+      "product_id": 1053,
+      "warehouse": "NY-1",
+      "qty": 94
+    },
+    {
+      "product_id": 1054,
+      "warehouse": "FL-1",
+      "qty": 155
+    },
+    {
+      "product_id": 1055,
+      "warehouse": "CA-1",
+      "qty": 27
+    },
+    {
+      "product_id": 1055,
+      "warehouse": "CA-2",
+      "qty": 148
+    },
+    {
+      "product_id": 1055,
+      "warehouse": "TX-1",
+      "qty": 6
+    },
+    {
+      "product_id": 1056,
+      "warehouse": "FL-1",
+      "qty": 101
+    },
+    {
+      "product_id": 1056,
+      "warehouse": "TX-1",
+      "qty": 183
+    },
+    {
+      "product_id": 1057,
+      "warehouse": "CA-1",
+      "qty": 151
+    },
+    {
+      "product_id": 1058,
+      "warehouse": "CA-2",
+      "qty": 197
+    },
+    {
+      "product_id": 1058,
+      "warehouse": "CA-1",
+      "qty": 77
+    },
+    {
+      "product_id": 1058,
+      "warehouse": "NY-1",
+      "qty": 217
+    },
+    {
+      "product_id": 1059,
+      "warehouse": "FL-1",
+      "qty": 200
+    },
+    {
+      "product_id": 1059,
+      "warehouse": "CA-1",
+      "qty": 10
+    },
+    {
+      "product_id": 1059,
+      "warehouse": "NY-1",
+      "qty": 88
+    },
+    {
+      "product_id": 1060,
+      "warehouse": "TX-1",
+      "qty": 129
+    },
+    {
+      "product_id": 1060,
+      "warehouse": "NY-1",
+      "qty": 165
+    },
+    {
+      "product_id": 1060,
+      "warehouse": "CA-1",
+      "qty": 87
+    }
+  ],
+  "customers": [
+    {
+      "customer_id": 501,
+      "name": "Retailer 501",
+      "state": "CA",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 502,
+      "name": "Retailer 502",
+      "state": "NV",
+      "tier": "retail"
+    },
+    {
+      "customer_id": 503,
+      "name": "Retailer 503",
+      "state": "AZ",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 504,
+      "name": "Retailer 504",
+      "state": "NV",
+      "tier": "master"
+    },
+    {
+      "customer_id": 505,
+      "name": "Retailer 505",
+      "state": "TX",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 506,
+      "name": "Retailer 506",
+      "state": "TX",
+      "tier": "master"
+    },
+    {
+      "customer_id": 507,
+      "name": "Retailer 507",
+      "state": "CO",
+      "tier": "master"
+    },
+    {
+      "customer_id": 508,
+      "name": "Retailer 508",
+      "state": "IL",
+      "tier": "master"
+    },
+    {
+      "customer_id": 509,
+      "name": "Retailer 509",
+      "state": "CO",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 510,
+      "name": "Retailer 510",
+      "state": "NV",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 511,
+      "name": "Retailer 511",
+      "state": "GA",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 512,
+      "name": "Retailer 512",
+      "state": "WA",
+      "tier": "retail"
+    },
+    {
+      "customer_id": 513,
+      "name": "Retailer 513",
+      "state": "NY",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 514,
+      "name": "Retailer 514",
+      "state": "NV",
+      "tier": "retail"
+    },
+    {
+      "customer_id": 515,
+      "name": "Retailer 515",
+      "state": "NV",
+      "tier": "master"
+    },
+    {
+      "customer_id": 516,
+      "name": "Retailer 516",
+      "state": "GA",
+      "tier": "master"
+    },
+    {
+      "customer_id": 517,
+      "name": "Retailer 517",
+      "state": "AZ",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 518,
+      "name": "Retailer 518",
+      "state": "CA",
+      "tier": "distro"
+    },
+    {
+      "customer_id": 519,
+      "name": "Retailer 519",
+      "state": "WA",
+      "tier": "retail"
+    },
+    {
+      "customer_id": 520,
+      "name": "Retailer 520",
+      "state": "NV",
+      "tier": "retail"
+    }
+  ],
+  "vendors": [
+    {
+      "vendor_id": 301,
+      "name": "Vendor 301"
+    },
+    {
+      "vendor_id": 302,
+      "name": "Vendor 302"
+    },
+    {
+      "vendor_id": 303,
+      "name": "Vendor 303"
+    },
+    {
+      "vendor_id": 304,
+      "name": "Vendor 304"
+    },
+    {
+      "vendor_id": 305,
+      "name": "Vendor 305"
+    },
+    {
+      "vendor_id": 306,
+      "name": "Vendor 306"
+    },
+    {
+      "vendor_id": 307,
+      "name": "Vendor 307"
+    },
+    {
+      "vendor_id": 308,
+      "name": "Vendor 308"
+    },
+    {
+      "vendor_id": 309,
+      "name": "Vendor 309"
+    },
+    {
+      "vendor_id": 310,
+      "name": "Vendor 310"
+    }
+  ],
+  "kb_docs": [
+    {
+      "doc_id": "SOP-RETURNS",
+      "title": "Returns SOP",
+      "visibility": "internal",
+      "text": "Returns are accepted within 14 days for unopened items. Restocking fee may apply."
+    },
+    {
+      "doc_id": "POLICY-SHIPPING",
+      "title": "Shipping Policy",
+      "visibility": "public",
+      "text": "We ship via LTL freight for most distributor orders. Delivery estimates vary by warehouse and destination."
+    },
+    {
+      "doc_id": "SOP-VENDOR-UPLOAD",
+      "title": "Vendor Catalog Upload Guide",
+      "visibility": "vendor",
+      "text": "Upload via Excel template. Required fields include Net Wt (oz), Net Vol (ml), nicotine content, images, and state restrictions if applicable."
+    }
+  ]
+}

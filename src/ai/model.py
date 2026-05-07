@@ -10,6 +10,9 @@ import os
 from functools import lru_cache
 from langchain_openai import ChatOpenAI
 from typing import Any
+from dotenv import load_dotenv
+
+load_dotenv()  # Load environment variables from .env file, if it exists
 
 MODEL_NAME = os.environ.get("ERPGUARD_LLM_MODEL", "gpt-5")
 
