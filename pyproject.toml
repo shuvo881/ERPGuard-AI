@@ -1,0 +1,11 @@
+[project]
+name = "erpguard-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-anthropic>=1.4.3",
+    "langchain-core>=1.3.3",
+    "langgraph>=1.1.10",
+]
