@@ -14,6 +14,7 @@ import sys
 import time
 import uuid
 from contextlib import contextmanager
+from contextvars import ContextVar
 from pathlib import Path
 from typing import Any
 
@@ -84,6 +85,33 @@ class TraceEvent:
         except OSError:
             pass
         return record
+
+
+# Per-request handle to the active TraceEvent. Kept OUT of LangGraph
+# State so the checkpointer never tries to serialize it. Each call to
+# `run_turn` sets this for the duration of the graph invocation.
+_current_trace: ContextVar[TraceEvent | None] = ContextVar(
+    "_current_trace", default=None,
+)
+
+
+def set_current_trace(ev: TraceEvent | None) -> Any:
+    """Bind `ev` as the active TraceEvent. Returns a token for reset()."""
+    return _current_trace.set(ev)
+
+
+def reset_current_trace(token: Any) -> None:
+    _current_trace.reset(token)
+
+
+def current_trace() -> TraceEvent:
+    ev = _current_trace.get()
+    if ev is None:
+        raise RuntimeError(
+            "No active TraceEvent. Wrap the call in run_turn() or call "
+            "set_current_trace(ev) first."
+        )
+    return ev
 
 
 @contextmanager

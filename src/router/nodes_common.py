@@ -7,7 +7,7 @@ from __future__ import annotations
 from typing import Any, Callable
 
 from src.ai.model import get_llm, llm_available
-from src.obs.logger import TraceEvent, audit, time_tool
+from src.obs.logger import audit, current_trace, time_tool
 from src.schemas import State
 from src.security.policy import (
     PermissionDenied,
@@ -16,14 +16,11 @@ from src.security.policy import (
 )
 from src.session import store as session_store
 
-# TraceEvent is stashed on State under this key so nodes can append to it.
+# Kept for backward compat — older code may still import this. The active
+# TraceEvent is now obtained via obs.logger.current_trace() (ContextVar)
+# so it's never written to the LangGraph State (which would fail to
+# serialize through the checkpointer).
 TRACE_KEY = "_trace"
-
-
-def get_trace(state: State) -> TraceEvent:
-    ev = state.get(TRACE_KEY)  # type: ignore[arg-type]
-    assert ev is not None, "trace event missing from state"
-    return ev  # type: ignore[return-value]
 
 
 def safe_call(state: State, tool_name: str, args: dict[str, Any],
@@ -40,7 +37,7 @@ def safe_call(state: State, tool_name: str, args: dict[str, Any],
         raise e
     audit("tool_invoked", user_type=user_type, request_id=request_id,
           payload={"tool": tool_name, "args": args})
-    with time_tool(get_trace(state), tool_name, args) as h:
+    with time_tool(current_trace(), tool_name, args) as h:
         result = fn(**args)
         if isinstance(result, list):
             h["summary"] = {"count": len(result)}
@@ -65,13 +62,13 @@ def format_with_llm(state: State, system: str,
     try:
         from langchain_core.messages import HumanMessage, SystemMessage
         prompt_text = f"{system}\n\nFACTS: {safe_payload}"
-        get_trace(state).record_prompt(prompt_text)
+        current_trace().record_prompt(prompt_text)
         msg = get_llm().invoke([
             SystemMessage(content=system),
             HumanMessage(content=str(safe_payload)),
         ])
         text = getattr(msg, "content", str(msg))
-        get_trace(state).record_output(text)
+        current_trace().record_output(text)
         return text
     except Exception as e:  # pragma: no cover - defensive
         return (deterministic_format(intent, safe_payload)

@@ -65,6 +65,3 @@ class State(TypedDict, total=False):
     # Aggregated payload + final response.
     tool_results: dict[str, Any]
     output: str
-    # Observability handle — TraceEvent object passed through every node.
-    # Declared here so LangGraph preserves it across state updates.
-    _trace: Any
