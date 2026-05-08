@@ -17,7 +17,7 @@ import argparse
 import sys
 from typing import get_args
 
-from src.router.graph import new_session_id, run_turn
+from src.orchestrator.graph import new_session_id, run_turn
 from src.schemas import UserType
 
 USER_TYPES = list(get_args(UserType))

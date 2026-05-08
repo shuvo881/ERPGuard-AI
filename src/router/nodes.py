@@ -20,7 +20,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.router.extractors import (
+from src.data.extractors import (
     extract_budget,
     extract_product_ids,
     extract_state,
