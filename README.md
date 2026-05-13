@@ -106,25 +106,7 @@ All can be set via `.env` (recommended) or inline. See
 
 ## Architecture overview (1 page)
 
-```
-                          ┌──────────────────────────────────────────┐
-  user_input ─▶ run_turn ─▶  ROUTER  (cheap keyword + LLM fallback)  │
-  user_type           │      │                                       │
-  session_id          │      ├─ SALES_RECO        : hot_picks ─▶ compliance_filter ─┐
-                      │      ├─ COMPLIANCE_CHECK  : identify ─▶ compliance_filter   │
-                      │      │                       ─▶ alternatives                │
-                      │      ├─ VENDOR_ONBOARDING : vendor_validate                 ├─▶ format ─▶ END
-                      │      ├─ OPS_STOCK         : stock_by_warehouse              │
-                      │      ├─ GENERAL_KB        : kb_search                       │
-                      │      └─ DEFAULT           : memory follow-up ──────────────────────────▶ END
-                      └──────────────────────────────────────────────────────────────┘
-                                      │
-                              ┌───────┴────────┐
-                              ▼                ▼
-                     data/seed_data.json   logs/trace.jsonl
-                     (deterministic         (one JSON event
-                      tools only)            per request)
-```
+![High Level Architecture](docs/High%20Level%20Architecture.png)
 
 **Per turn:**
 
